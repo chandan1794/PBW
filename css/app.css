@@ -19,7 +19,7 @@ html {
 }
 
 body {
-    background-color: #fafbfc;
+    background-color: black;
     color: #2e3d49;
     font-family: Georgia, Times, 'Times New Roman', serif;
 }
@@ -203,6 +203,7 @@ footer {
 }
      
 .card {
+    background: #fafbfc;
     border: 2px solid #e7e7e7;
     border-radius: 4px;    
     padding: .5rem;
