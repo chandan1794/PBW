@@ -6,8 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans">
-    <!-- Can be removed -->
-    <!-- <link rel="stylesheet" href="css/normalize.min.css"> -->
     <link rel="stylesheet" href="css/app.css">
 </head>
 <body>
@@ -18,15 +16,16 @@
 
     <div class="container">
         <main class="cards">
-            <h2 class="visuallyhidden">Articles</h2>
-
             <article class="card">
                 <header>
                     <h3>Tokyo Ghoul</h3>
                     <time datetime="2019-08-20T00:00">Aug 20</time>
                 </header>
 
-                <img src="img/tokyo-ghoul" alt="tokyo ghoul tanaka">
+                <div class="img-box">
+                    <img src="img/tokyo-ghoul" alt="tokyo ghoul tanaka">
+                    <p class="img-caption"><strong>Tokyo Ghoul</strong></p>
+                </div>
 
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, laborum dolorem, dolor error nihil vitae similique necessitatibus omnis iure quasi vel iste repellendus alias! Asperiores voluptatem, maiores quibusdam eaque consequatur.</p>
 
@@ -38,8 +37,12 @@
                     <h3>Attack on Titan</h3>
                     <time datetime="2019-08-15T00:00">Aug 15</time>
                 </header>
-
-                <img src="img/attack-on-titan.jpg" alt="attack on titan">
+                
+                <div class="img-box">
+                    <img src="img/attack-on-titan.jpg" alt="attack on titan">
+                    <p class="img-caption"><strong>Attack on Titan</strong></p>
+                </div>
+                
 
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, laborum dolorem, dolor error nihil vitae similique necessitatibus omnis iure quasi vel iste repellendus alias! Asperiores voluptatem, maiores quibusdam eaque consequatur.</p>
 
@@ -52,7 +55,10 @@
                     <time datetime="2019-08-10T00:00">Aug 10</time>
                 </header>
 
-                <img src="img/cowboy-bebop.webp" alt="cowboy bebop">
+                <div class="img-box">
+                    <img src="img/cowboy-bebop.webp" alt="cowboy bebop">
+                    <p class="img-caption"><strong>Cowboy Bebop</strong></p>
+                </div>
 
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, laborum dolorem, dolor error nihil vitae similique necessitatibus omnis iure quasi vel iste repellendus alias! Asperiores voluptatem, maiores quibusdam eaque consequatur.</p>
 
@@ -65,11 +71,14 @@
                     <time datetime="2019-08-05T00:00">Aug 05</time>
                 </header>
 
-                <img src="img/one-piece.webp" alt="one piece">
+                <div class="img-box">
+                    <img src="img/one-piece.webp" alt="one piece">
+                    <p class="img-caption"><strong>One Piece</strong></p>
+                </div>
 
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, laborum dolorem, dolor error nihil vitae similique necessitatibus omnis iure quasi vel iste repellendus alias! Asperiores voluptatem, maiores quibusdam eaque consequatur.</p>
 
-                <a class="read-more" href="#">Read more</a>
+                <a class="read-more" href="articles/one-piece.html">Read more</a>
             </article>
 
             <article class="card">
@@ -78,7 +87,10 @@
                     <time datetime="2019-08-01T00:00">Aug 01</time>
                 </header>
 
-                <img src="img/fullmetal-alchemist.webp" alt="fullmetal alchemist">
+                <div class="img-box">
+                    <img src="img/fullmetal-alchemist.webp" alt="fullmetal alchemist">
+                    <p class="img-caption"><strong>Fullmetal Alchemist</strong></p>
+                </div>
 
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, laborum dolorem, dolor error nihil vitae similique necessitatibus omnis iure quasi vel iste repellendus alias! Asperiores voluptatem, maiores quibusdam eaque consequatur.</p>
 
@@ -90,11 +102,11 @@
             <img src="img/profile.png" alt="My profile picture">
 
             <div class="sidebar-text">
-                <h2>About Me</h2>
+                <h2 class="author-name">John Doe</h2>
+                <h4 class="author-company">Manager at unknown.com</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque ducimus delectus esse repellendus. Harum esse laudantium itaque, aut cum molestias magni voluptatum veritatis alias. Veniam, impedit fuga ab saepe repudiandae.</p>
 
                 <section>
-                    <h3 class="visuallyhidden">Social Links</h3>
                     <a class="social-link" href="https://twitter.com/udacity">
                         <img src="img/social-twitter.png" alt="Twitter">
                     </a>
@@ -110,7 +122,7 @@
     </div>
 
     <footer>
-        Made with &hearts; by Richard @ Udacity
+        Made with &hearts; @Udacity
     </footer>
 
     <script src="js/app.js"></script>

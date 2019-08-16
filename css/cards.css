@@ -1,0 +1,29 @@
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-auto-rows: auto;
+    grid-gap: 1rem;
+}
+     
+.card {
+    background: #fafbfc;
+    border: 2px solid #e7e7e7;
+    border-radius: 4px;    
+    padding: .5rem;
+}
+
+.card.blog {
+    padding: 2rem;
+}
+
+.card.blog h3{
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.card .img-box .img-caption {
+    font-size: 15px;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+}

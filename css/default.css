@@ -1,0 +1,67 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: black;
+    color: #2e3d49;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2,
+h3,
+h4 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+p {
+    line-height: 1.5;
+}
+
+h1 {
+    letter-spacing: 8px;
+    position: relative;
+    text-transform: uppercase;
+    text-shadow: 0 0 1px white;
+}
+
+h1::after {
+    border: 5px solid #02ccba;
+    border-radius: 50%;
+    content: '';
+    height: 15px;
+    width: 15px;
+    position: absolute;
+}
+
+
+/*** Article Styling ***/
+article,
+aside {
+    margin: 0.2em;
+}
+
+article header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+time {
+    color: #7d97ad;
+}
+
+article img {
+    height: auto;
+    width: 100%;
+}
