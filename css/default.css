@@ -9,7 +9,7 @@ html {
 }
 
 body {
-    background-color: black;
+    background-color: #333;
     color: #2e3d49;
     font-family: Georgia, Times, 'Times New Roman', serif;
 }
@@ -31,8 +31,12 @@ p {
 h1 {
     letter-spacing: 8px;
     position: relative;
+    color: #02ccba;
     text-transform: uppercase;
     text-shadow: 0 0 1px white;
+    background: #333;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 h1::after {
