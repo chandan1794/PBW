@@ -69,3 +69,7 @@ article img {
     height: auto;
     width: 100%;
 }
+
+button {
+    padding: 10px 15px;
+}
