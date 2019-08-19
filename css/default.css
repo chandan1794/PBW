@@ -73,3 +73,9 @@ article img {
 button {
     padding: 10px 15px;
 }
+
+q {
+    font-size: 2.5em;
+    border-left: #2e3d49 5px solid;
+    padding: 10px;
+}
