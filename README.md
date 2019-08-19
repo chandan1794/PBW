@@ -1,27 +1,24 @@
-# Version Control with Git
+# Personal Blog Website
 
-This is the repo for [Udacity's Version Control with Git course](). In the course, students will learn version control while learning the basics to intermediate knowledge of Git.
-
-This repo contains the source code of a blog project that will be used throughout the course.
+This project requires the student to utilize their HTML and CSS skills to build out a personal blog website, including custom images, layout, and styling. Along with webpage design considerations, the student will also work to appropriately structure the project files, as well as use proper CSS and HTML formatting & style.
 
 ## Table of Contents
 
 * [Instructions](#instructions)
-* [Creator](#creators)
+* [Creator](#creator)
 
 ## Instructions
 
-* clone the project
-* open the index file in a browser
+* Clone the Project
+* Open the <em>index.html</em> file in a browser
 
-## Creators
+## Creator
 
-* Richard Kalehoff
-    - [https://github.com/richardkalehoff](https://github.com/richardkalehoff)
-    - [https://twitter.com/richardkalehoff](https://twitter.com/richardkalehoff)
+* Chandan Purbia
+    - [https://github.com/chandan1794](https://github.com/chandan1794)
 
 With the help of:
 
-* Colt
-* James
-* Julia
+* Udacity
+* Stackoverflow
+* Google

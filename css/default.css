@@ -37,6 +37,7 @@ h1 {
     background: #333;
     padding-top: 10px;
     padding-bottom: 10px;
+    text-decoration: underline;
 }
 
 h1::after {
@@ -63,6 +64,7 @@ article header {
 
 time {
     color: #7d97ad;
+    font-style: italic;
 }
 
 article img {
