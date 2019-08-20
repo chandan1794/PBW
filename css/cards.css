@@ -16,7 +16,7 @@
     padding: 2rem;
 }
 
-.card.blog h3{
+.card-blog-header{
     font-size: 50px;
     font-family: 'Montserrat', sans-serif;
 }
