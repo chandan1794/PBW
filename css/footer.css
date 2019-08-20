@@ -1,10 +1,7 @@
 /*** Footer Styling ***/
 footer {
-    /* border-top: 2px solid #dbe2e8; */
     margin-top: 4em;
-    /* padding: 2em; */
     text-align: center;
-    /* color: #dbe2e8; */
 }
 
 .footer-cards {
@@ -15,7 +12,6 @@ footer {
      
 .footer-card {
     background: #fafbfc;  
-    /* padding: .5rem; */
 }
 
 .footer-list {
